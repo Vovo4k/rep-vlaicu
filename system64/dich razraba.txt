@@ -1,0 +1,39 @@
+SWUIQ-WHDWK-MUNGU-WIHKQ-BNSGH
+
+	rem Start ado cfg
+	if %x% equ 0 if %y% equ 39 goto :
+	if %x% equ 0 if %y% equ 40 goto :
+	if %x% equ 0 if %y% equ 41 goto :
+	if %x% equ 1 if %y% equ 39 goto :
+	if %x% equ 1 if %y% equ 40 goto :
+	if %x% equ 1 if %y% equ 41 goto :
+	if %x% equ 2 if %y% equ 39 goto :
+	if %x% equ 2 if %y% equ 40 goto :
+	if %x% equ 2 if %y% equ 41 goto :
+	if %x% equ 3 if %y% equ 39 goto :
+	if %x% equ 3 if %y% equ 40 goto :
+	if %x% equ 3 if %y% equ 41 goto :
+	if %x% equ 4 if %y% equ 39 goto :
+	if %x% equ 4 if %y% equ 40 goto :
+	if %x% equ 4 if %y% equ 41 goto :
+	if %x% equ 5 if %y% equ 39 goto :
+	if %x% equ 5 if %y% equ 40 goto :
+	if %x% equ 5 if %y% equ 41 goto :
+	if %x% equ 6 if %y% equ 39 goto :
+	if %x% equ 6 if %y% equ 40 goto :
+	if %x% equ 6 if %y% equ 41 goto :
+	if %x% equ 7 if %y% equ 39 goto :
+	if %x% equ 7 if %y% equ 40 goto :
+	if %x% equ 7 if %y% equ 41 goto :
+	if %x% equ 8 if %y% equ 39 goto :
+	if %x% equ 8 if %y% equ 40 goto :
+	if %x% equ 8 if %y% equ 40 goto :
+	if %x% equ 9 if %y% equ 39 goto :
+	if %x% equ 9 if %y% equ 40 goto :
+	if %x% equ 9 if %y% equ 41 goto :
+	
+:buttons
+system64\batbox /g 6 8 /c 0x37 /d "My Vlaicu"
+system64\batbox /g 6 12 /c 0x37 /d "Notepad"
+system64\batbox /g 6 16 /c 0x37 /d "Seetings"
+system64\batbox /g 6 20 /c 0x37 /d "Dual boot"
