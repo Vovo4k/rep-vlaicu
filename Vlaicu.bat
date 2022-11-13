@@ -1,5 +1,5 @@
 @echo off
-title Vlaicu OS 2.0
+title Vlaicu OS 2.2 BETA
 pause
 if not exist system64 goto :bsod
 echo Choose Boot Option
@@ -26,7 +26,7 @@ goto login
 
 :login
 cls
-echo VlaicuOS 2.0 Build 3
+echo VlaicuOS 2.2 Build 5 BETA
 echo.
 echo 1 About PC
 echo 2 Discord
@@ -45,6 +45,7 @@ if %cnsl% == 5 goto timet
 if %cnsl% == 6 goto fd
 if %cnsl% == 7 exit
 if %cnsl% == 8 goto spotify
+if %cnsl% == 9 goto snake
 
 :sysin
 cls
