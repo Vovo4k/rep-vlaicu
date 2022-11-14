@@ -1,0 +1,1 @@
+type user and press enter then type 123 and press enter 
