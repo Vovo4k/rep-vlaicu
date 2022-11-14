@@ -1,1 +1,0 @@
-CreateObject("WScript.shell").run("https://discord.gg/MYJwbmpu9b")
